@@ -40,3 +40,8 @@ class Stack:
             popped_node = self.top
             self.top = self.top.next_node
             return popped_node.data
+
+        def __str__(self):
+            """Вывод данных односвязного стека в строковом представлении"""
+            return str(self.top)
+
